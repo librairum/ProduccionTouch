@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B3A47EF-B747-4EE3-88B7-2A1C4719DBF6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Prod.UI.Web</RootNamespace>
+    <AssemblyName>Prod.UI.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EasyCallback, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\EasyCallback.dll</HintPath>
+    </Reference>
+    <Reference Include="Json, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\Json.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ucLogApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\ucLogApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\datatables\bootstrap.min.css" />
+    <Content Include="css\datatables\dataTables.bootstrap.css" />
+    <Content Include="css\docs.css" />
+    <Content Include="css\estilos-controles.css" />
+    <Content Include="css\estilos-tabla.css" />
+    <Content Include="css\iconFont.css" />
+    <Content Include="css\Images\sort_asc.png" />
+    <Content Include="css\Images\sort_both.png" />
+    <Content Include="css\Images\sort_desc.png" />
+    <Content Include="css\jqgrid\css\ui.jqgrid-bootstrap-ui.css" />
+    <Content Include="css\jqgrid\css\ui.jqgrid-bootstrap.css" />
+    <Content Include="css\jqgrid\css\ui.jqgrid.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\external\jquery\jquery.js" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\index.html" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.js" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.min.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.min.js" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.structure.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.structure.min.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.theme.css" />
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom\jquery-ui.theme.min.css" />
+    <Content Include="css\metro-bootstrap-responsive.css" />
+    <Content Include="css\metro-bootstrap.css" />
+    <Content Include="css\paging.css" />
+    <Content Include="css\style-responsive.css" />
+    <Content Include="css\themes\style1\orange-blue.css" />
+    <Content Include="css\themes\style1\pink-blue.css" />
+    <Content Include="css\ToggleButton.css" />
+    <Content Include="Datatables\bootstrap.min.css" />
+    <Content Include="Datatables\dataTables.bootstrap.js" />
+    <Content Include="Datatables\jquery-1.11.1.min.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\analytics.js" />
+    <Content Include="js\datatables\dataTables.bootstrap.js" />
+    <Content Include="js\datatables\jquery-1.11.1.min.js" />
+    <Content Include="js\datatables\jquery.dataTables.min.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\isotope.pkgd.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.menu.js" />
+    <Content Include="js\libs\angular.js" />
+    <Content Include="js\libs\ui-bootstrap.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\paging.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="Librerias\DocumentFormat.OpenXml.dll" />
+    <Content Include="Librerias\EasyCallback.dll" />
+    <Content Include="Librerias\Json.dll" />
+    <Content Include="Librerias\log4net.dll" />
+    <Content Include="Librerias\Newtonsoft.Json.dll" />
+    <Content Include="Librerias\ucLogApp.dll" />
+    <Content Include="Pages\frmCorte.aspx" />
+    <Content Include="Pages\frmCorte.js" />
+    <Content Include="Pages\frmDetalleCorte.aspx" />
+    <Content Include="Pages\frmDetalleCorte.js" />
+    <Content Include="Pages\Utilitario.js" />
+    <Content Include="Scripts\autoCompletado.js" />
+    <Content Include="Scripts\constantes.js" />
+    <Content Include="Scripts\dropdownlist.js" />
+    <Content Include="Scripts\FooTable-2\css\footable.core.css" />
+    <Content Include="Scripts\FooTable-2\css\footable.core.min.css" />
+    <Content Include="Scripts\FooTable-2\css\footable.metro.css" />
+    <Content Include="Scripts\FooTable-2\css\footable.metro.min.css" />
+    <Content Include="Scripts\FooTable-2\css\footable.standalone.css" />
+    <Content Include="Scripts\FooTable-2\css\footable.standalone.min.css" />
+    <Content Include="Scripts\FooTable-2\demos\accordion.htm" />
+    <Content Include="Scripts\FooTable-2\demos\add-delete-row.htm" />
+    <Content Include="Scripts\FooTable-2\demos\ajax-redraw.htm" />
+    <Content Include="Scripts\FooTable-2\demos\ajax.htm" />
+    <Content Include="Scripts\FooTable-2\demos\api.htm" />
+    <Content Include="Scripts\FooTable-2\demos\arbitrary_toggle_markup.htm" />
+    <Content Include="Scripts\FooTable-2\demos\auto-expand-first-row-on-breakpoint.htm" />
+    <Content Include="Scripts\FooTable-2\demos\bookmarkable.htm" />
+    <Content Include="Scripts\FooTable-2\demos\bug-fixes\bug-data-ignore.htm" />
+    <Content Include="Scripts\FooTable-2\demos\bug-fixes\bug-remove-unneeded-detail-row-click.htm" />
+    <Content Include="Scripts\FooTable-2\demos\bug-fixes\bug-unused-breakpoints.htm" />
+    <Content Include="Scripts\FooTable-2\demos\css\arbitrary_toggle_markup.css" />
+    <Content Include="Scripts\FooTable-2\demos\css\bootstrap-glyphicons.css" />
+    <Content Include="Scripts\FooTable-2\demos\css\bootstrap-responsive.css" />
+    <Content Include="Scripts\FooTable-2\demos\css\bootstrap.css" />
+    <Content Include="Scripts\FooTable-2\demos\css\bootstrapSwitch.css" />
+    <Content Include="Scripts\FooTable-2\demos\css\footable-demos.css" />
+    <Content Include="Scripts\FooTable-2\demos\data-attributes.htm" />
+    <Content Include="Scripts\FooTable-2\demos\demo-template.htm" />
+    <Content Include="Scripts\FooTable-2\demos\event-interception.htm" />
+    <Content Include="Scripts\FooTable-2\demos\events.htm" />
+    <Content Include="Scripts\FooTable-2\demos\expand-collapse-all.htm" />
+    <Content Include="Scripts\FooTable-2\demos\filtering.htm" />
+    <Content Include="Scripts\FooTable-2\demos\getting-started.htm" />
+    <Content Include="Scripts\FooTable-2\demos\grid.htm" />
+    <Content Include="Scripts\FooTable-2\demos\group-headers.htm" />
+    <Content Include="Scripts\FooTable-2\demos\hidden-columns.htm" />
+    <Content Include="Scripts\FooTable-2\demos\icon-styles.htm" />
+    <Content Include="Scripts\FooTable-2\demos\img\footable.png" />
+    <Content Include="Scripts\FooTable-2\demos\img\minus.png" />
+    <Content Include="Scripts\FooTable-2\demos\img\plus.png" />
+    <Content Include="Scripts\FooTable-2\demos\index.htm" />
+    <Content Include="Scripts\FooTable-2\demos\js\bootstrap-tab.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\bootstrapSwitch.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\data-generator.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\demos.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\jquery.mockjax.js" />
+    <Content Include="Scripts\FooTable-2\demos\js\mustache.js" />
+    <Content Include="Scripts\FooTable-2\demos\metro-theme.htm" />
+    <Content Include="Scripts\FooTable-2\demos\multiple-showcases.htm" />
+    <Content Include="Scripts\FooTable-2\demos\old-theme.htm" />
+    <Content Include="Scripts\FooTable-2\demos\paging.htm" />
+    <Content Include="Scripts\FooTable-2\demos\reset.htm" />
+    <Content Include="Scripts\FooTable-2\demos\row-toggle.htm" />
+    <Content Include="Scripts\FooTable-2\demos\showcase.htm" />
+    <Content Include="Scripts\FooTable-2\demos\sorting.htm" />
+    <Content Include="Scripts\FooTable-2\demos\striping.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\column-groupings.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\demo-ajax-with-mustache.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\demo-bootstrapSwitch.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\demo-colspan.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\demo-widthHeightOverride.htm" />
+    <Content Include="Scripts\FooTable-2\demos\todo\demo-zebra.htm" />
+    <Content Include="Scripts\FooTable-2\demos\triggers.htm" />
+    <Content Include="Scripts\FooTable-2\dist\footable.all.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.bookmarkable.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.filter.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.paginate.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.sort.min.js" />
+    <Content Include="Scripts\FooTable-2\dist\footable.striping.min.js" />
+    <Content Include="Scripts\FooTable-2\Gruntfile.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.bookmarkable.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.filter.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.grid.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.memory.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.paginate.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.plugin.template.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.sort.js" />
+    <Content Include="Scripts\FooTable-2\js\footable.striping.js" />
+    <Content Include="Scripts\FooTable-2\load.js" />
+    <Content Include="Scripts\FooTable-2\screenshot.jpg" />
+    <Content Include="Scripts\Generales.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\css\ellipsis-xbl.xml" />
+    <Content Include="Scripts\jqGrid-4.5.4\css\ui.jqgrid.css" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\Changes.txt" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-dk.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-id.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-kr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-tw.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\i18n\grid.locale-vi.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\install.txt" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\jquery.jqGrid.min.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\js\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\grid.addons.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\grid.postext.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\grid.setcolumns.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\jquery.contextmenu.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\jquery.searchFilter.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\jquery.tablednd.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\searchFilter.css" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\ui.multiselect.css" />
+    <Content Include="Scripts\jqGrid-4.5.4\plugins\ui.multiselect.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\css\ellipsis-xbl.xml" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\css\ui.jqgrid.css" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\css\ui.multiselect.css" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.base.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.celledit.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.common.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.custom.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.filter.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.formedit.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.grouping.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.import.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.inlinedit.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.jqueryui.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.loader.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.subgrid.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.tbltogrid.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\grid.treegrid.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-dk.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-id.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-kr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-tw.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\i18n\grid.locale-vi.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\jqDnR.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\jqModal.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\jquery.fmatter.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\jquery.jqGrid.js" />
+    <Content Include="Scripts\jqGrid-4.5.4\src\JsonXml.js" />
+    <Content Include="Scripts\jquery-1.11.0.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\modal.js" />
+    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Styles\jquery-ui.js" />
+    <Content Include="UserControls\ucPageTitle.ascx" />
+    <Content Include="vendors\animate.css\animate.css" />
+    <Content Include="vendors\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="vendors\bootstrap-daterangepicker\daterangepicker-bs3.css" />
+    <Content Include="vendors\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="vendors\bootstrap-hover-dropdown\bootstrap-hover-dropdown.js" />
+    <Content Include="vendors\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendors\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendors\bootstrap\js\jquery.flot.tooltip.js" />
+    <Content Include="vendors\calendar\zabuto_calendar.min.css" />
+    <Content Include="vendors\calendar\zabuto_calendar.min.js" />
+    <Content Include="vendors\Datatables\media\js\jquery.dataTables.js" />
+    <Content Include="vendors\easyui.css" />
+    <Content Include="vendors\flot-chart\jquery.flot.categories.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.fillbetween.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.pie.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.resize.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.spline.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.stack.js" />
+    <Content Include="vendors\flot-chart\jquery.flot.tooltip.js" />
+    <Content Include="vendors\font-awesome\css\font-awesome.css" />
+    <Content Include="vendors\font-awesome\css\font-awesome.min.css" />
+    <Content Include="vendors\holder\holder.js" />
+    <Content Include="vendors\iCheck\custom.min.js" />
+    <Content Include="vendors\iCheck\icheck.min.js" />
+    <Content Include="vendors\iCheck\skins\all.css" />
+    <Content Include="vendors\iCheck\skins\flat\all.css" />
+    <Content Include="vendors\iCheck\skins\futurico\futurico.css" />
+    <Content Include="vendors\iCheck\skins\line\all.css" />
+    <Content Include="vendors\iCheck\skins\minimal\all.css" />
+    <Content Include="vendors\iCheck\skins\polaris\polaris.css" />
+    <Content Include="vendors\iCheck\skins\square\all.css" />
+    <Content Include="vendors\intro.js\intro.js" />
+    <Content Include="vendors\intro.js\introjs.css" />
+    <Content Include="vendors\jquery-1.10.2.js" />
+    <Content Include="vendors\jquery-1.10.2.min.js" />
+    <Content Include="vendors\jquery-cookie\jquery.cookie.js" />
+    <Content Include="vendors\jquery-highcharts\highcharts.js" />
+    <Content Include="vendors\jquery-news-ticker\jquery.newsTicker.min.js" />
+    <Content Include="vendors\jquery-notific8\jquery.notific8.min.css" />
+    <Content Include="vendors\jquery-notific8\jquery.notific8.min.js" />
+    <Content Include="vendors\jquery-pace\pace.css" />
+    <Content Include="vendors\jquery-pace\pace.min.js" />
+    <Content Include="vendors\jquery-tablesorter\themes\blue\style-custom.css" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\animated-overlay.gif" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_ffffff_256x240 %281%29.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="vendors\jquery-ui-1.10.4.custom\css\ui-lightness\jquery-ui-1.10.4.custom.min.css" />
+    <Content Include="vendors\jquery.easyui.min.js" />
+    <Content Include="vendors\jquery.min.js" />
+    <Content Include="vendors\metisMenu\jquery.metisMenu.js" />
+    <Content Include="vendors\moment\moment.js" />
+    <Content Include="vendors\responsive-tabs\responsive-tabs.js" />
+    <Content Include="vendors\sco.message\sco.message.css" />
+    <Content Include="vendors\sco.message\sco.message.js" />
+    <Content Include="vendors\select2-4.0.1\dist\css\select2.css" />
+    <Content Include="vendors\select2-4.0.1\dist\css\select2.min.css" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ar.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\az.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\bg.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ca.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\cs.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\da.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\de.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\en.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\es.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\et.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\eu.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\fa.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\fi.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\fr.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\gl.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\he.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\hi.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\hr.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\hu.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\id.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\is.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\it.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ja.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ko.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\lt.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\lv.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\mk.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ms.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\nb.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\nl.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\pl.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\pt-BR.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\pt.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ro.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\ru.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\sk.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\sr-Cyrl.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\sr.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\sv.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\th.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\tr.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\uk.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\vi.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\zh-CN.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\i18n\zh-TW.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\select2.full.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\select2.full.min.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\select2.js" />
+    <Content Include="vendors\select2-4.0.1\dist\js\select2.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\announcements-4.0.html" />
+    <Content Include="vendors\select2-4.0.1\docs\community.html" />
+    <Content Include="vendors\select2-4.0.1\docs\examples.html" />
+    <Content Include="vendors\select2-4.0.1\docs\images\logo.png" />
+    <Content Include="vendors\select2-4.0.1\docs\index.html" />
+    <Content Include="vendors\select2-4.0.1\docs\options-old.html" />
+    <Content Include="vendors\select2-4.0.1\docs\options.html" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\css\bootstrap.min.css" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\css\font-awesome.min.css" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ak.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\al.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ar.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\az.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ca.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\co.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ct.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\de.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\fl.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ga.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\hi.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ia.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\id.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\il.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\in.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ks.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ky.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\la.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ma.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\md.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\me.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\mi.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\mn.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\mo.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ms.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\mt.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nc.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nd.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ne.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nh.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nj.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nm.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\nv.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ny.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\oh.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ok.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\or.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\pa.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ri.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\sc.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\sd.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\tn.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\tx.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\ut.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\va.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\vt.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\wa.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\wi.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\wv.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\images\flags\wy.png" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\js\anchor.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\js\bootstrap.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\js\jquery.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\js\placeholders.jquery.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\vendor\js\prettify.min.js" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\basics.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\data.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\disabled-mode.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\disabled-results.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\hide-search.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\localization-rtl-diacritics.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\matcher.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\multiple-max.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\placeholders.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\programmatic-control.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\tags.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\themes-templating-responsive-design.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\examples\tokenizer.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\footer.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\ga.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\head.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\js-source-states.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\navigation.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\nav\announcements-4.0.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\nav\examples.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\nav\options-old.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\nav\options.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\notice-previous.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\adapters.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\backwards-compatibility.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\core-options.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\dropdown.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\events.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options-old\setting-default-options.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility\initial-selection.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility\introduction.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility\matcher.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility\query-function.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\compatibility\text-input.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\core.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\core\amd-support.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\core\data-attributes.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\core\options.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\data.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\data\ajax.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\data\array.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\data\select.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\dropdown.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\dropdown\filtering.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\dropdown\placement.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\dropdown\selections.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\events.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\events\internal.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\events\jquery.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\introduction.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\not-written.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\selections.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\selections\clearing-selections.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\selections\multiple.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\selections\placeholder.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\options\selections\templating.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_includes\social-buttons.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_layouts\default.html" />
+    <Content Include="vendors\select2-4.0.1\docs\_layouts\home.html" />
+    <Content Include="vendors\select2-4.0.1\Gruntfile.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\banner.end.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\banner.start.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\jquery.mousewheel.shim.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\jquery.select2.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\jquery.shim.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\containerCss.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\dropdownCss.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\initSelection.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\inputData.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\matcher.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\query.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\compat\utils.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\core.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\ajax.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\array.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\base.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\maximumInputLength.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\maximumSelectionLength.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\minimumInputLength.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\select.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\tags.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\data\tokenizer.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\defaults.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\diacritics.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\attachBody.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\attachContainer.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\closeOnSelect.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\hidePlaceholder.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\infiniteScroll.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\minimumResultsForSearch.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\search.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\selectOnClose.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\dropdown\stopPropagation.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ar.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\az.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\bg.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ca.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\cs.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\da.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\de.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\en.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\es.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\et.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\eu.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\fa.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\fi.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\fr.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\gl.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\he.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\hi.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\hr.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\hu.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\id.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\is.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\it.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ja.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ko.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\lt.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\lv.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\mk.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ms.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\nb.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\nl.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\pl.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\pt-BR.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\pt.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ro.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\ru.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\sk.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\sr-Cyrl.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\sr.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\sv.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\th.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\tr.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\uk.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\vi.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\zh-CN.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\i18n\zh-TW.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\keys.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\options.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\results.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\allowClear.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\base.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\clickMask.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\eventRelay.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\multiple.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\placeholder.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\search.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\single.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\selection\stopPropagation.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\translation.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\select2\utils.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\wrapper.end.js" />
+    <Content Include="vendors\select2-4.0.1\src\js\wrapper.start.js" />
+    <Content Include="vendors\select2-4.0.1\tests\a11y\search-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\a11y\selection-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\array-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\base-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\inputData-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\maximumInputLength-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\maximumSelectionLength-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\minimumInputLength-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\select-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\tags-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\data\tokenizer-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\dropdown\dropdownCss-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\dropdown\selectOnClose-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\dropdown\stopPropagation-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\helpers.js" />
+    <Content Include="vendors\select2-4.0.1\tests\integration.html" />
+    <Content Include="vendors\select2-4.0.1\tests\integration\select2-methods.js" />
+    <Content Include="vendors\select2-4.0.1\tests\options\data-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\options\deprecated-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\options\translation-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\options\width-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\allowClear-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\containerCss-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\multiple-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\placeholder-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\search-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\single-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\selection\stopPropagation-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\unit.html" />
+    <Content Include="vendors\select2-4.0.1\tests\utils\decorator-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\utils\escapeMarkup-tests.js" />
+    <Content Include="vendors\select2-4.0.1\tests\vendor\jquery-1.7.2.js" />
+    <Content Include="vendors\select2-4.0.1\tests\vendor\qunit-1.14.0.css" />
+    <Content Include="vendors\select2-4.0.1\tests\vendor\qunit-1.14.0.js" />
+    <Content Include="vendors\select2-4.0.1\vendor\jquery-2.1.0.js" />
+    <Content Include="vendors\select2.css" />
+    <Content Include="vendors\select2.js" />
+    <Content Include="vendors\slimScroll\jquery.slimscroll.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auditoria.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="Masters\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCorte.aspx.cs">
+      <DependentUpon>frmCorte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCorte.aspx.designer.cs">
+      <DependentUpon>frmCorte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmDetalleCorte.aspx.cs">
+      <DependentUpon>frmDetalleCorte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmDetalleCorte.aspx.designer.cs">
+      <DependentUpon>frmDetalleCorte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sesiones.cs" />
+    <Compile Include="UserControls\ucPageTitle.ascx.cs">
+      <DependentUpon>ucPageTitle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucPageTitle.ascx.designer.cs">
+      <DependentUpon>ucPageTitle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\jqgrid\jquery-ui-1.11.4.custom.zip" />
+    <None Include="css\less\docs.less" />
+    <None Include="js\jquery-1.10.2.min.map" />
+    <Content Include="Masters\Master.Master" />
+    <None Include="Scripts\FooTable-2\.csslintrc" />
+    <None Include="Scripts\FooTable-2\.gitattributes" />
+    <None Include="Scripts\FooTable-2\.gitignore" />
+    <None Include="Scripts\FooTable-2\.jshintrc" />
+    <None Include="Scripts\FooTable-2\.travis.yml" />
+    <None Include="Scripts\FooTable-2\bower.json" />
+    <None Include="Scripts\FooTable-2\component.json" />
+    <None Include="Scripts\FooTable-2\composer.json" />
+    <None Include="Scripts\FooTable-2\css\fonts\footable.eot" />
+    <None Include="Scripts\FooTable-2\css\fonts\footable.svg" />
+    <None Include="Scripts\FooTable-2\css\fonts\footable.ttf" />
+    <None Include="Scripts\FooTable-2\css\fonts\footable.woff" />
+    <None Include="Scripts\FooTable-2\demos\fonts\glyphiconshalflings-regular.eot" />
+    <None Include="Scripts\FooTable-2\demos\fonts\glyphiconshalflings-regular.otf" />
+    <None Include="Scripts\FooTable-2\demos\fonts\glyphiconshalflings-regular.svg" />
+    <None Include="Scripts\FooTable-2\demos\fonts\glyphiconshalflings-regular.ttf" />
+    <None Include="Scripts\FooTable-2\demos\fonts\glyphiconshalflings-regular.woff" />
+    <None Include="Scripts\FooTable-2\footable.jquery.json" />
+    <None Include="Scripts\FooTable-2\icomoon\footable.json" />
+    <None Include="Scripts\FooTable-2\js\.jshintrc" />
+    <None Include="Scripts\FooTable-2\less\footable.core.less" />
+    <None Include="Scripts\FooTable-2\less\footable.metro.less" />
+    <None Include="Scripts\FooTable-2\less\footable.standalone.less" />
+    <None Include="Scripts\FooTable-2\LICENSE" />
+    <None Include="Scripts\FooTable-2\package.json" />
+    <None Include="Scripts\FooTable-2\README.md" />
+    <None Include="Scripts\FooTable-2\screenshot.pdn" />
+    <None Include="vendors\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="vendors\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="vendors\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="vendors\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="vendors\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="vendors\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="vendors\font-awesome\less\animated.less" />
+    <None Include="vendors\font-awesome\less\bordered-pulled.less" />
+    <None Include="vendors\font-awesome\less\core.less" />
+    <None Include="vendors\font-awesome\less\fixed-width.less" />
+    <None Include="vendors\font-awesome\less\font-awesome.less" />
+    <None Include="vendors\font-awesome\less\icons.less" />
+    <None Include="vendors\font-awesome\less\larger.less" />
+    <None Include="vendors\font-awesome\less\list.less" />
+    <None Include="vendors\font-awesome\less\mixins.less" />
+    <None Include="vendors\font-awesome\less\path.less" />
+    <None Include="vendors\font-awesome\less\rotated-flipped.less" />
+    <None Include="vendors\font-awesome\less\stacked.less" />
+    <None Include="vendors\font-awesome\less\variables.less" />
+    <None Include="vendors\font-awesome\scss\font-awesome.scss" />
+    <None Include="vendors\font-awesome\scss\_animated.scss" />
+    <None Include="vendors\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="vendors\font-awesome\scss\_core.scss" />
+    <None Include="vendors\font-awesome\scss\_fixed-width.scss" />
+    <None Include="vendors\font-awesome\scss\_icons.scss" />
+    <None Include="vendors\font-awesome\scss\_larger.scss" />
+    <None Include="vendors\font-awesome\scss\_list.scss" />
+    <None Include="vendors\font-awesome\scss\_mixins.scss" />
+    <None Include="vendors\font-awesome\scss\_path.scss" />
+    <None Include="vendors\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="vendors\font-awesome\scss\_stacked.scss" />
+    <None Include="vendors\font-awesome\scss\_variables.scss" />
+    <None Include="vendors\select2-4.0.1\.editorconfig" />
+    <None Include="vendors\select2-4.0.1\.gitignore" />
+    <None Include="vendors\select2-4.0.1\.jshintignore" />
+    <None Include="vendors\select2-4.0.1\.jshintrc" />
+    <None Include="vendors\select2-4.0.1\.travis.yml" />
+    <None Include="vendors\select2-4.0.1\bower.json" />
+    <None Include="vendors\select2-4.0.1\component.json" />
+    <None Include="vendors\select2-4.0.1\composer.json" />
+    <None Include="vendors\select2-4.0.1\CONTRIBUTING.md" />
+    <None Include="vendors\select2-4.0.1\docs\.gitignore" />
+    <None Include="vendors\select2-4.0.1\docs\css\s2-docs.scss" />
+    <None Include="vendors\select2-4.0.1\docs\dist\.gitkeep" />
+    <None Include="vendors\select2-4.0.1\docs\README.md" />
+    <None Include="vendors\select2-4.0.1\docs\vendor\fonts\fontawesome-webfont.eot" />
+    <None Include="vendors\select2-4.0.1\docs\vendor\fonts\fontawesome-webfont.svg" />
+    <None Include="vendors\select2-4.0.1\docs\vendor\fonts\fontawesome-webfont.ttf" />
+    <None Include="vendors\select2-4.0.1\docs\vendor\fonts\fontawesome-webfont.woff" />
+    <None Include="vendors\select2-4.0.1\docs\vendor\fonts\FontAwesome.otf" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_alert.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_anchorjs.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_buttons.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_code.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_examples.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_featurette.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_footer.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_hamburger.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_home.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_jumbotron.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_layout.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_nav.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_prettify.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_result-repository.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_sidenav.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_social.scss" />
+    <None Include="vendors\select2-4.0.1\docs\_sass\_typography.scss" />
+    <None Include="vendors\select2-4.0.1\LICENSE.md" />
+    <None Include="vendors\select2-4.0.1\package.json" />
+    <None Include="vendors\select2-4.0.1\README.md" />
+    <None Include="vendors\select2-4.0.1\select2.jquery.json" />
+    <None Include="vendors\select2-4.0.1\src\scss\core.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\mixins\_gradients.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\classic\layout.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\classic\_defaults.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\classic\_multiple.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\classic\_single.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\default\layout.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\default\_multiple.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\theme\default\_single.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\_dropdown.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\_multiple.scss" />
+    <None Include="vendors\select2-4.0.1\src\scss\_single.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inv.BusinessEntities\Inv.BusinessEntities.csproj">
+      <Project>{FC35BF50-F5C9-490B-974A-1BB73C3C108A}</Project>
+      <Name>Inv.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inv.BusinessLogic\Inv.BusinessLogic.csproj">
+      <Project>{00E8EE55-698C-46BF-ADBB-46CD9B4AB5F6}</Project>
+      <Name>Inv.BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57659</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

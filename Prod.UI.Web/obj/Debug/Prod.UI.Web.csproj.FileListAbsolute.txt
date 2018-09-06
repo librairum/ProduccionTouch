@@ -1,0 +1,16 @@
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\obj\Debug\Prod.UI.Web.csprojResolveAssemblyReference.cache
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Prod.UI.Web.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Prod.UI.Web.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\EasyCallback.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.BusinessEntities.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.BusinessLogic.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Json.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\log4net.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\ucLogApp.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\BLToolkit.4.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.DataAccess.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.BusinessEntities.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.BusinessLogic.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\bin\Inv.DataAccess.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\obj\Debug\Prod.UI.Web.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Prod.UI.Web\obj\Debug\Prod.UI.Web.pdb

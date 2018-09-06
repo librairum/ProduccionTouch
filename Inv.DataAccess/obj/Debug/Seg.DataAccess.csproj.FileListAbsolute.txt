@@ -1,0 +1,8 @@
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Seg.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb

@@ -1,0 +1,10 @@
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.BusinessLogic.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.BusinessLogic.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\obj\Debug\Seg.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\obj\Debug\Inv.BusinessLogic.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessLogic\obj\Debug\Inv.BusinessLogic.pdb

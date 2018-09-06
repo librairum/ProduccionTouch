@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC35BF50-F5C9-490B-974A-1BB73C3C108A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inv.BusinessEntities</RootNamespace>
+    <AssemblyName>Inv.BusinessEntities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BLToolkit.4">
+      <HintPath>..\Inv.UI.Win\Librerias\BLToolkit.4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActividadContableTipo.cs" />
+    <Compile Include="ActividadesContable.cs" />
+    <Compile Include="ActividadNivel1.cs" />
+    <Compile Include="ActividadNivel2.cs" />
+    <Compile Include="Almacen.cs" />
+    <Compile Include="Articulo.cs" />
+    <Compile Include="ArticuloCaracteristicas.cs" />
+    <Compile Include="ArticuloCliente.cs" />
+    <Compile Include="ArticuloPorAlmacen.cs" />
+    <Compile Include="Bancos.cs" />
+    <Compile Include="BloqueCorteDetalle.cs" />
+    <Compile Include="AsientoTipo.cs" />
+    <Compile Include="Canteras.cs" />
+    <Compile Include="CatalogoFA.cs" />
+    <Compile Include="ConciProdVsCtble.cs" />
+    <Compile Include="ContaGastosxEmpresaxLinea.cs" />
+    <Compile Include="CostosDetalle.cs" />
+    <Compile Include="CostosProduccion.cs" />
+    <Compile Include="CuentaContable.cs" />
+    <Compile Include="DetalleGuiaTransporte.cs" />
+    <Compile Include="DocumentoFA.cs" />
+    <Compile Include="DomicilioDestino.cs" />
+    <Compile Include="DTO\Spu_Cos_Trae_DistribucionLineaxActApoyo.cs" />
+    <Compile Include="DTO\Spu_Cos_Trae_GastosDistribuidos.cs" />
+    <Compile Include="DTO\Spu_Pro_Trae_CajaSeguimineto.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_ArtxNatyAlm.cs" />
+    <Compile Include="DTO\Spu_Inv_Rep_MovimientosMP.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_ListaPPStock.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_ProductoxNroCaja.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_StockDetMP.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_StockDetMPTodos.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_StockDetPP.cs" />
+    <Compile Include="DTO\Spu_Pro_Traer_OTxLinea.cs" />
+    <Compile Include="DTO\Spu_Pro_Trae_PPStock.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="ErroresComunes.cs" />
+    <Compile Include="ErroresComunesDetalle.cs" />
+    <Compile Include="FormaPago.cs" />
+    <Compile Include="Funciones.cs" />
+    <Compile Include="GastosContabilidad.cs" />
+    <Compile Include="GuiaTransporte.cs" />
+    <Compile Include="HoraMuertaDetalle.cs" />
+    <Compile Include="ImportarDocumento.cs" />
+    <Compile Include="ImportarMovimientos.cs" />
+    <Compile Include="InventarioFisico.cs" />
+    <Compile Include="Libro.cs" />
+    <Compile Include="LoteCosto.cs" />
+    <Compile Include="Maquina.cs" />
+    <Compile Include="Motivo.cs" />
+    <Compile Include="MotivoHoraMuerta.cs" />
+    <Compile Include="MovimientosProduccion.cs" />
+    <Compile Include="Naturaleza.cs" />
+    <Compile Include="OrdenTrabajo.cs" />
+    <Compile Include="OrdenTrabajoTipo.cs" />
+    <Compile Include="Paises.cs" />
+    <Compile Include="PedidoVentaDetalle.cs" />
+    <Compile Include="Plantilla.cs" />
+    <Compile Include="Linea.cs" />
+    <Compile Include="ProduccionSaldo.cs" />
+    <Compile Include="ProductoCaracteristicas.cs" />
+    <Compile Include="ProductoNaturaleza.cs" />
+    <Compile Include="Puertos.cs" />
+    <Compile Include="PuntoVenta.cs" />
+    <Compile Include="ResumenDeBoleta.cs" />
+    <Compile Include="Sede.cs" />
+    <Compile Include="Segformulario.cs" />
+    <Compile Include="Segmenu.cs" />
+    <Compile Include="SegMenuPorPerfil.cs" />
+    <Compile Include="Segmenuxperfil.cs" />
+    <Compile Include="Segmodulo.cs" />
+    <Compile Include="Segmodulosxempresa.cs" />
+    <Compile Include="Segperfil.cs" />
+    <Compile Include="SegUsuario.cs" />
+    <Compile Include="Series.cs" />
+    <Compile Include="DTO\Spu_Cos_Traer_DistribucionxActividadApoyo.cs" />
+    <Compile Include="DTO\Spu_Fact_Trae_Por_Periodo.cs" />
+    <Compile Include="Spu_Come_Trae_PackingDetalle.cs" />
+    <Compile Include="Spu_Come_Trae_PackingListTodo.cs" />
+    <Compile Include="Spu_Fact_Help_FAC04_CABFACTURA.cs" />
+    <Compile Include="Spu_Fact_Trae_ArtxTip.cs" />
+    <Compile Include="Spu_Fact_Trae_DocParaVouCont.cs" />
+    <Compile Include="Spu_Fact_Trae_FAC05_DETFACTURAXFACT.cs" />
+    <Compile Include="Spu_Fact_Trae_Proter.cs" />
+    <Compile Include="Spu_Pro_Trae_MPResumida.cs" />
+    <Compile Include="Spu_Pro_Trae_SalidaMPResumida.cs" />
+    <Compile Include="SubPlantilla.cs" />
+    <Compile Include="TablaGlobal.cs" />
+    <Compile Include="TasasDistribucion.cs" />
+    <Compile Include="TipoDocumentoVentas.cs" />
+    <Compile Include="Turnos.cs" />
+    <Compile Include="UbicacionFisica.cs" />
+    <Compile Include="CuentaCorriente.cs" />
+    <Compile Include="DTO\ArticuloResponse.cs" />
+    <Compile Include="CentroCosto.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Documento.cs" />
+    <Compile Include="DTO\EntidadAyuda.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_ReservasXPv.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_PtXPedVenta.cs" />
+    <Compile Include="DTO\Spu_Inv_Rep_ProvMateriaPrima.cs" />
+    <Compile Include="DTO\Spu_Inv_Rep_ProdxFabricante.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_StockDet.cs" />
+    <Compile Include="DTO\Spu_Inv_Rep_Movimientos.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_PtStock.cs" />
+    <Compile Include="DTO\MovimientoResponse.cs" />
+    <Compile Include="DTO\Spu_Inv_Trae_Proter.cs" />
+    <Compile Include="DTO\sp_Inv_Trae_Detalle_Articulo_Can.cs" />
+    <Compile Include="DTO\UsuarioResponse.cs" />
+    <Compile Include="ItemsList.cs" />
+    <Compile Include="Moneda.cs" />
+    <Compile Include="Movimiento.cs" />
+    <Compile Include="Obra.cs" />
+    <Compile Include="PedidoVentaCabecera.cs" />
+    <Compile Include="Periodo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="Responsable.cs" />
+    <Compile Include="SedesCliente.cs" />
+    <Compile Include="TipoAnalisis.cs" />
+    <Compile Include="TipoDocumento.cs" />
+    <Compile Include="TipoDocumentoCliente.cs" />
+    <Compile Include="TipoPuntoVenta.cs" />
+    <Compile Include="TipoTransaccion.cs" />
+    <Compile Include="UnidaddeMedida.cs" />
+    <Compile Include="ValorxDefecto.cs" />
+    <Compile Include="Vehiculo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

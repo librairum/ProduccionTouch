@@ -1,0 +1,532 @@
+C:\Proyectos\Minera Deisi\Logistica.solution\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\Proyectos\Minera Deisi\Logistica.solution\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\Proyectos\Minera Deisi\Logistica.solution\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\Proyectos\Minera Deisi\Logistica.solution\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\Proyectos\Minera Deisi\Logistica.solution\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv1\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\24082015\Construccionv2\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\Users\Jose Crisostomo\Desktop\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntrgarIvan21102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan26102015\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Logistica_30102015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+I:\MineraDeisi\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\04112015\EntregadoPorIvan02112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan30112015\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Desarrollo\Modulo Almacen\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan_22022016\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Ultima\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\internet\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\internet\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\internet\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\internet\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\internet\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\internet\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\internet\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\internet\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\26042106\EntregadoPorIvan25042016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\11052016\EntregadoPorIvan10052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\25052016\FABRICA\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\09062016\Fabrica\Ivan07062016\Fuente\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06072106\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\19072016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregadoIvan26072016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\23082016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\20092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregaraIvan26092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\29092016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregadoIvan29092016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\12102016\softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregaraIvan12102016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\19102016\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\26102016\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\02112016\softwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregarAIvan07112016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\22112016\Softwarefactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Especificaciones\EntregarIvan0612\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Fuentes\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\21122016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\20012017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\Users\IVAN\Desktop\Source\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\EntregarIvan08022017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\16032017\SofwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\20032017\EntregadoIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\27032017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\31032017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\03042017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\06042017\SoftwareFactory\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\05052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\15052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\15052016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\22052017\EntregarIvan\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\25052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\29052017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\01062017\Logistica_DeisiProd02062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\05062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\08062016\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\12062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\14062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+D:\MineraDeisi\PROTER\Integracion\26062017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\25082017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+C:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+E:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\BLToolkit.4.dll
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+G:\ProyectoTraver\Integracion\13092017\Logistica\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\obj\Debug\Inv.DataAccess.csprojResolveAssemblyReference.cache
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\obj\Debug\Inv.DataAccess.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\obj\Debug\Inv.DataAccess.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\bin\Debug\Inv.DataAccess.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\bin\Debug\Inv.DataAccess.pdb
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.dll
+G:\ProduccionWebTouch\13082018\Logistica_Touch\Inv.DataAccess\bin\Debug\Inv.BusinessEntities.pdb

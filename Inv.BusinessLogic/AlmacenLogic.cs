@@ -1,0 +1,122 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Inv.BusinessEntities;
+using Inv.DataAccess;
+using System.Data;
+
+namespace Inv.BusinessLogic
+{
+    public class AlmacenLogic
+    {
+        #region Singleton
+        private static volatile AlmacenLogic instance;
+        private static object syncRoot = new Object();
+
+        private AlmacenLogic() { }
+
+        public static AlmacenLogic Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    lock (syncRoot)
+                    {
+                        if (instance == null)
+                            instance = new AlmacenLogic();
+                    }
+                }
+
+                return instance;
+            }
+        }
+        #endregion
+
+        #region principalesmetodos
+        public void AlmacenInsertar(Almacen almacen, out string @cMsgRetorno)
+        {
+            @cMsgRetorno = string.Empty;
+            Accessor.AlmacenInsertar(almacen.in09codemp, almacen.in09codigo, almacen.in09descripcion, almacen.in09ubicacion, almacen.In09Cuenta, almacen.In09DebHab, 
+                                     almacen.in09PRODNATURALEZA, almacen.in09flagmaterecuperacion, almacen.in09flagMatRechazado,
+                                     almacen.In09FlagConsiderarProduccion,almacen.in09flagProductoBueno, 
+                                     almacen.in09lineacod, almacen.in09actividadnivel1cod,  almacen.in09FlagCostear,
+                                     out @cMsgRetorno);
+        }
+
+        public void AlmacenModificar(Almacen almacen, out string @cMsgRetorno)
+        {
+            @cMsgRetorno = string.Empty;
+
+            Accessor.AlmacenModificar(almacen.in09codemp, almacen.in09codigo, almacen.in09descripcion, almacen.in09ubicacion, almacen.In09Cuenta, almacen.In09DebHab,
+                                      almacen.in09PRODNATURALEZA, almacen.in09flagmaterecuperacion, almacen.in09flagMatRechazado,
+                                      almacen.In09FlagConsiderarProduccion, 
+                                      almacen.in09flagProductoBueno, 
+                                      almacen.in09lineacod, 
+                                      almacen.in09actividadnivel1cod, 
+                                      almacen.in09FlagCostear,
+                                      out @cMsgRetorno);
+        }
+
+        public void AlmacenEliminar(Almacen almacen, out string @cMsgRetorno)
+        {
+            @cMsgRetorno = string.Empty;
+
+            Accessor.AlmacenEliminar(almacen.in09codemp, almacen.in09codigo, out @cMsgRetorno);
+        }
+
+        public List<Almacen> AlmacenTraer(string empresa)
+        {
+            return Accessor.AlmacenTraer(empresa, "in09codigo", "*");
+        }
+        public List<Almacen> AlmacenAutoComplete(string empresa) { 
+            return Accessor.AlmacenTraer(empresa, "in09codigo", "autocomplete" );
+        }
+        public List<Almacen> AlmacenesMasTodos(string empresa)
+        {
+            return Accessor.AlmacenesMasTodos(empresa, "", "*");
+        }
+
+        public List<Almacen> AlmacenesxNaturaleza(string empresa, string naturaleza) //Se usa para cargar combos no ventasn de ayuda
+        {
+            return Accessor.AlmacenesMasTodos(empresa, naturaleza, "in09PRODNATURALEZA");
+        }
+        public Almacen AlmacenTraerRegistro(string empresa,string codigo)
+        {
+            return Accessor.AlmacenTraerRegistro(empresa, codigo);
+        }
+        #endregion principalesmetodos
+
+        public List<Almacen> TraerAlmacen(string codigoEmpresa,string filtro) //  se usara para las ventasn de ayuda 
+        {
+            return Accessor.TraerAlmacen(codigoEmpresa, "in09PRODNATURALEZA", filtro);
+        }
+        public List<Almacen> TraerTodos(string codigoEmpresa)
+        {
+            return Accessor.TraerAlmacen(codigoEmpresa, "", "*");
+        }
+        public List<ItemsList> ObtenerListItems(string codigoEmpresa)
+        {
+            var lista = Accessor.TraerAlmacen(codigoEmpresa, "", "*");
+            return lista.Select(x => new ItemsList { Value = x.in09codigo, Text = x.in09descripcion}).ToList();
+        }
+
+        public List<ItemsList> ObtenerListItems1(string codigoEmpresa)
+        {
+            var lista = Accessor.TraerAlmacen(codigoEmpresa, "", "*");
+            return lista.Select(x => new ItemsList { Value = x.in09codigo, Text = x.in09descripcion}).ToList();
+        }
+
+
+        #region Accessor
+
+        private static AlmacenAccesor Accessor
+        {
+            [System.Diagnostics.DebuggerStepThrough]
+            get { return AlmacenAccesor.CreateInstance(); }
+        }
+        
+        #endregion Accessor
+    }
+}

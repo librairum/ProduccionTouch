@@ -1,0 +1,129 @@
+﻿
+#txtNroDocumento,#txtFechaCliente,
+#txtFechaEntregaCli,#txtCodigoSede
+                  {
+                     text-align:center;
+                  }
+                  
+                  
+/*Crea linea que separa un bloque de controles de otros*/
+                  
+.lineaabajo 
+                  {
+                   border-bottom: 1px solid #D8D8D8;
+                   font-size: 14px;
+                   font-family: 'Times New Roman';
+                   background-color: #ffffff;
+                   height: 18px;
+                   width: 121px;
+                  }
+   
+   /*Formate los texto como separadores se necesita usar entre Divs el texto <div class='subtitulo'> Texto </div>*/
+.subtitulo 
+                  {
+                    background: #e2e2e2;
+                    background: -moz-linear-gradient(top,  #e2e2e2 0%, #d1d1d1 26%, #dbdbdb 50%, #fefefe 87%); 
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(26%,#d1d1d1), color-stop(50%,#dbdbdb), color-stop(87%,#fefefe));
+                    background: -webkit-linear-gradient(top,  #e2e2e2 0%,#d1d1d1 26%,#dbdbdb 50%,#fefefe 87%); 
+                    background: -o-linear-gradient(top,  #e2e2e2 0%,#d1d1d1 26%,#dbdbdb 50%,#fefefe 87%); 
+                    background: -ms-linear-gradient(top,  #e2e2e2 0%,#d1d1d1 26%,#dbdbdb 50%,#fefefe 87%); 
+                    background: linear-gradient(to bottom,  #e2e2e2 0%,#d1d1d1 26%,#dbdbdb 50%,#fefefe 87%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); 
+                    color:Gray;
+                    border-bottom:1px solid #D1D1D1;
+                    margin-top:5px; margin-bottom:5px; font-size:large;
+                 }
+                 
+                 
+#line-separator
+                  {
+                    height:1px;
+                    background:#717171;
+                    border-bottom:1px solid #E9E9E9;
+                    margin-bottom:10px;
+                    margin-top:5px;
+                  }
+    
+                 
+/*.control-label
+                {
+                    font-family:@Tahoma, @Sans-Serif;
+                    font-weight:bold;
+                    width:auto;                    
+                    background-color:White;
+                }       */ 
+                /*borde redondeado a cajas de texto*/
+.controles-textbox 
+                {
+                     
+                    border-radius: 15px;
+                    height:30px;
+                }
+                /*Agregar color de fondo a formulario de registro o edicion Color:Gris <div class='tbFondo'> <table> .... </table> </div>'*/
+.tbFondo 
+                {
+                    /*background-color:#F5F5F5;                    
+                    border-radius: 0px 1px 1px 1px;
+                    -moz-border-radius: 0px 1px 1px 1px;
+                    -webkit-border-radius: 0px 1px 1px 1px;*/
+                    
+                }
+                
+.MargenDiv 
+                {
+                    padding:0 20px 10px 20px;                          
+                }
+
+#tbDetails thead tr th
+{
+/*border-bottom-width: 1px;           
+background: rgb(224,236,252); 
+background: -moz-linear-gradient(top,  rgba(224,236,252,1) 18%, rgba(224,236,252,1) 74%, rgba(224,236,252,1) 87%, rgba(224,236,252,1) 87%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,rgba(224,236,252,1)), color-stop(74%,rgba(224,236,252,1)), color-stop(87%,rgba(224,236,252,1)), color-stop(87%,rgba(224,236,252,1))); 
+background: -webkit-linear-gradient(top,  rgba(224,236,252,1) 18%,rgba(224,236,252,1) 74%,rgba(224,236,252,1) 87%,rgba(224,236,252,1) 87%); 
+background: -o-linear-gradient(top,  rgba(224,236,252,1) 18%,rgba(224,236,252,1) 74%,rgba(224,236,252,1) 87%,rgba(224,236,252,1) 87%); 
+background: -ms-linear-gradient(top,  rgba(224,236,252,1) 18%,rgba(224,236,252,1) 74%,rgba(224,236,252,1) 87%,rgba(224,236,252,1) 87%); 
+background: linear-gradient(to bottom,  rgba(224,236,252,1) 18%,rgba(224,236,252,1) 74%,rgba(224,236,252,1) 87%,rgba(224,236,252,1) 87%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ecfc', endColorstr='#e0ecfc',GradientType=0 ); 
+
+color:black;*/
+    } 
+      .table thead tr 
+      {
+/*background: rgb(154,162,172); 
+background: -moz-linear-gradient(top,  rgba(154,162,172,1) 0%, rgba(165,177,187,1) 50%, rgba(155,169,181,1) 51%, rgba(200,208,214,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(154,162,172,1) 0%,rgba(165,177,187,1) 50%,rgba(155,169,181,1) 51%,rgba(200,208,214,1) 100%); 
+background: linear-gradient(to bottom,  rgba(154,162,172,1) 0%,rgba(165,177,187,1) 50%,rgba(155,169,181,1) 51%,rgba(200,208,214,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9aa2ac', endColorstr='#c8d0d6',GradientType=0 ); 
+border-color:#77D5F7;           */
+          }
+      .table thead tr:hover
+      {
+          color:Gray;
+          
+          }
+    .table tr:hover
+    { 
+/*background: rgb(202,228,250); 
+background: -moz-linear-gradient(top,  rgba(202,228,250,1) 0%, rgba(182,215,250,1) 0%, rgba(193,222,249,1) 48%, rgba(193,222,249,1) 56%, rgba(172,200,244,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(202,228,250,1) 0%,rgba(182,215,250,1) 0%,rgba(193,222,249,1) 48%,rgba(193,222,249,1) 56%,rgba(172,200,244,1) 100%); 
+background: linear-gradient(to bottom,  rgba(202,228,250,1) 0%,rgba(182,215,250,1) 0%,rgba(193,222,249,1) 48%,rgba(193,222,249,1) 56%,rgba(172,200,244,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae4fa', endColorstr='#acc8f4',GradientType=0 ); */
+        }
+    
+ 
+
+input[type='text'].numero
+{
+   text-align :right;
+}
+
+
+   
+
+
+
+
+
+
+                   

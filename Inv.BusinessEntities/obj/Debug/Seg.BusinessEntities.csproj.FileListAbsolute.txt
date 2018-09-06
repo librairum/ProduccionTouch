@@ -1,0 +1,5 @@
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessEntities\bin\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessEntities\bin\Debug\Inv.BusinessEntities.pdb
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessEntities\bin\Debug\BLToolkit.4.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessEntities\obj\Debug\Inv.BusinessEntities.dll
+C:\ProyectoTraver\Modulo Seguridad\Seguridad\Inv.BusinessEntities\obj\Debug\Inv.BusinessEntities.pdb
