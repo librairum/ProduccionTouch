@@ -11,7 +11,10 @@
     <div>
     <label>Nombre de usuario</label>
     <input type="text" id="txtUsuario" />
+    <label>Clave de usuario:</label>
+    <input type="password" id="txtClaver" />
     <input type="button" value="Ingresar" id="btnIngresar" />
+    <input type="checkbox" value="0" />Mantener sesion iniciar
     </div>
     </form>
 </body>
