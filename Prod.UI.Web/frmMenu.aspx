@@ -14,6 +14,7 @@
     <label>Clave de usuario:</label>
     <input type="password" id="txtClaver" />
     <input type="button" value="Ingresar" id="btnIngresar" />
+    <input type="button" value="Cancelar" id="Button1" />
     <input type="checkbox" value="0" />Mantener sesion iniciar
     </div>
     </form>
